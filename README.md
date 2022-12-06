@@ -1,5 +1,6 @@
 WeatherApp
- This is a web application built using React with the help of the OpenWeatherMap API that allows users to search for and view current weather information for a specific location.
+
+This is a web application built using React with the help of the OpenWeatherMap API that allows users to search for and view current weather information for a specific location.
 
 Features
 - Search for weather information by city name.
