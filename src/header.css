@@ -1,0 +1,53 @@
+.Header{
+    height: 75px;
+    display: flex;
+    flex-direction: row;
+    position: absolute;
+    top: 0;
+}
+
+
+.name{
+    color: rgb(255, 255, 255);
+    display: flex;
+    align-items: center;
+}
+
+.logo{
+    display: flex;
+    align-items: center;
+    height: auto;
+    width: auto;
+}
+
+.weatherApp{
+    font-size: 40px;
+}
+
+
+@media (max-width: 310px) {
+    .weatherApp{
+        font-size: 20px;
+    }
+}
+
+@media (min-width: 310px) and  (max-width: 500px) {
+    
+    .weatherApp{
+        font-size: 20px;
+    }
+    
+}
+
+@media (min-width: 500px) and  (max-width: 900px) {
+    .weatherApp{
+        font-size: 30px;
+    }
+    
+}
+
+@media (min-width: 900px) {
+    .weatherApp{
+        font-size: 40px;
+    }
+}
